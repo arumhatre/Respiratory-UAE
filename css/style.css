@@ -256,8 +256,19 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 }
 
 @media (max-width:600px){
-.includes_clinic_box{height:auto;margin-top:40px;margin-bottom:10px;padding:5px 10px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
-.includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
+.includes_clinic_box {
+  width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        background: linear-gradient(136deg, #b99863 0, #e0cd98 25%, #f8edb8 50%, rgb(230 214 165) 75%, rgb(208 184 134) 100%);
+        margin-top: 0;
+    }
+    .includes_clinic_box img {
+    margin-top: 0;
+}
+    .includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;line-height:normal; margin-bottom: 0; margin-left: 10px;}
 }
 
 
@@ -439,8 +450,8 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 }
 @media (max-width:600px){
 .bg_homeopathy_dr{padding-top:50px;background:url(../images/bg-homeopathy-dr-mob.webp) bottom center no-repeat;background-size:cover}
-.doctors_list_ne{list-style-image:url('../images/list-homeoathy.webp');margin-left:0;padding-left:42px;margin-bottom:0}
-.doctors_list_ne li{font-size:18px;font-weight:600;color:#666;margin-bottom:15px;padding-left:5px}
+.doctors_list_ne{list-style-image:url('../images/list-homeoathy-mob.webp');margin-left:0;padding-left:15px;margin-bottom:0}
+.doctors_list_ne li{font-size:16px;font-weight:600;color:#666;margin-bottom:15px;padding-left:5px}
 .homeopathy_dr_heading{text-align:center;font-size:26px;color:#173d5b;font-weight:600;text-transform:uppercase}
 .homeopathy_model_dr_cls{margin-left:0}
 .doctors_list_ne li:last-child{margin-bottom:10px}
