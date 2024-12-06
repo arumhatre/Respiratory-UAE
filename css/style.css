@@ -241,34 +241,21 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .includes_clinic_box p{font-size:21px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
 .includes_clinic_box img{margin-top:-50px}
 @media (max-width:1024px){
-  .includes_clinic_box{height:150px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
+.includes_clinic_box{height:150px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
 .includes_clinic_box p{font-size:18px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
 }
-
 @media (max-width:992px){
-  .includes_clinic_box{height:150px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
+.includes_clinic_box{height:150px;margin-top:40px;padding:8px 15px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
 .includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
 }
-
 @media (max-width:768px){
 .includes_clinic_box{height:140px;margin-top:40px;margin-bottom:10px;padding:5px 10px;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%)}
 .includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;margin-bottom:5px;margin-top:8px;line-height:normal}
 }
-
 @media (max-width:600px){
-.includes_clinic_box {
-  width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        padding: 0;
-        background: linear-gradient(136deg, #b99863 0, #e0cd98 25%, #f8edb8 50%, rgb(230 214 165) 75%, rgb(208 184 134) 100%);
-        margin-top: 0;
-    }
-    .includes_clinic_box img {
-    margin-top: 0;
-}
-    .includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;line-height:normal; margin-bottom: 0; margin-left: 10px;}
+.includes_clinic_box{width:100%;height:auto;display:flex;align-items:center;padding:0;background:linear-gradient(136deg,#b99863 0,#e0cd98 25%,#f8edb8 50%,rgb(230 214 165) 75%,rgb(208 184 134) 100%);margin-top:0}
+.includes_clinic_box img{margin-top:0;background-color:#fff;border-radius:0 50% 50% 0}
+.includes_clinic_box p{font-size:16px;color:#212121;font-weight:500;line-height:normal;margin-bottom:0;margin-left:10px}
 }
 
 
